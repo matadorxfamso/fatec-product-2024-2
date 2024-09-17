@@ -1,21 +1,19 @@
 {
-  "products":[
+  "posts": [
     {
-      "id":1,
-      "name":"the last of us",
-      "price": 250,
-      "category":"Sobrevivencia"
-    },
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
     {
-     "id":2,
-     "name":"silent hill 2",
-     "price": 250,
-     "category":"Terror"
-   },  {
-     "id":3,
-     "name":"The Crew 2",
-     "price":  199,
-     "category":"Ação"
-   }
-   ]
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }

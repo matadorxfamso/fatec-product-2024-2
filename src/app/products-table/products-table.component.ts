@@ -18,12 +18,14 @@ export class ProductsTableComponent implements OnInit {
 
   loadproducts() {
     this.service.getProducts().subscribe({
-      next: (data) => (this.products = data),
+      next: (data) => (this.products = data)
     });
   }
+
   delete(Product: Product) {
     this.service.delete(Product).subscribe({
       next: () => this.loadproducts(),
     });
   }
+
 }
